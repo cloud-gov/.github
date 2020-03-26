@@ -1,3 +1,6 @@
+## Org-wide stale.yml file
+# NOTE: This can be overridden by putting a different .github/stale.yml at the repo level
+
 # Number of days of inactivity before an issue becomes stale
 daysUntilStale: 60
 # Number of days of inactivity before a stale issue is closed
