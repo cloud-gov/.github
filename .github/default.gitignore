@@ -1,28 +1,22 @@
-# Below is my Proposed Standard for .gitignore files across all repositories or as a global include for engineer machines
-
-# General
-*.log*
+# General Files
+*.log
 *.tmp
 *.bak
 *.swp
 *.swo
 .DS_Store
-.Thumbs.db
+Thumbs.db
 Desktop.ini
 ._*
 .Trashes
 .Spotlight-V100
 .TemporaryItems
 .Trash-*
-.env*
 *.pid
 *.pid.lock
 *.seed
 *.db
 *.dbmdl
-.db.sqlite3
-*.sqlite
-*.sqlite3
 *.tlog
 *.tmproj
 *.tmp_proj
@@ -37,82 +31,45 @@ Desktop.ini
 *.cache
 *.csproj.user
 *.sln.docstates
-**/*.iws
 *.iws
 
-# Security - Sensitive files that should never be committed
-*.pem
-*.key
-*.crt
-*.csr
-*.gpg
-*.asc
-.env
-.env.local
-.env.*.local
-.secret
-*.vault
-*.token
-*.apikey
-*.credentials
-**/secrets.yml
-**/credentials.yml
-**/config/dev.yml
-**/config/private.yml
-
-# Dependencies
-/node_modules/
-/bower_components/
-.jekyll-cache/
-/vendor/
-*.gem
-*.egg
-*.egg-info
-.eggs/
-
-# Compiled Source
-*.com
-*.class
-*.dll
-*.exe
-*.o
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
-*.dylib
-*.lib
-*.obj
-*.pdb
-*.jar
 
-# Packages
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Logs and Databases
-*.log
-*.sql
-*.sqlite
-*.sqlite3
-**/log/*.log
-**/log/*.log*
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# OS generated files
-.DS_Store
-.DS_Store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE/Editor configurations
+# IDE / Editor Configurations
 /.idea/
 *.iml
-.vscode/
+/.vscode/
 *.code-workspace
 *.sublime-project
 *.sublime-workspace
@@ -129,22 +86,131 @@ Thumbs.db
 /.emacs.d/
 *.sw*
 
-# Build Artifacts
+# Security - Sensitive files
+*.pem
+*.key
+*.crt
+*.csr
+*.gpg
+*.asc
+.secret
+*.vault
+*.token
+*.apikey
+*.credentials
+secrets.yml
+credentials.yml
+config/dev.yml
+config/private.yml
+
+# Dependency Directories
+/node_modules/
+/bower_components/
+/.jekyll-cache/
+/vendor/
+
+# Go specific
+/bin/
+/pkg/
+*.o
+*.a
+*.out
+**/vendor/
+Gopkg.lock
+Gopkg.toml
+go.sum
+go.mod
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ruby specific
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+*.gem
+*.rbc
+.capistrano/
+.rspec
+.ruby-version
+.ruby-gemset
+# Ignore Byebug command history file.
+.byebug_history
+
+# Cloud Foundry specific
+manifest.yml
+manifest-*.yml
+*.env
+*.vars.yml
+*.vars-*.yml
+/deployments/
+
+# BOSH specific
+*.release
+/releases/
+/dev_releases/
+/.dev_builds/
+/blobs/
+/config/
+/private.yml
+*.tgz
+
+# Concourse specific
+/fly-*
+/concourse-*
+/pipelines/
+/tasks/
+/groups/
+/resources/
+
+# Logs, Databases, and Configuration Files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+/log/
+*.env*
+**/log/*.log
+**/log/*.log*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build Artifacts and Directories
 /dist/
 /tmp/
 /out/
 /build/
 /target/
 /coverage/
-/Release
-/Debug
+/Release/
+/Debug/
 /x64/
 /x86/
 *.lock
 *.DS_Store
 *.tgz
-**/.terraform/*
-**/node_modules/**
+/.terraform/
 
 # Certificates and Keys
 *.csr
@@ -153,8 +219,6 @@ Thumbs.db
 *.pem
 *.pfx
 
-# System files
+# System and Miscellaneous
 $RECYCLE.BIN/
 $tf/
-
-
