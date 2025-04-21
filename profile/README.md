@@ -1,4 +1,4 @@
-<img src="https://cloud.gov/assets/images/content/cloud-gov-logo.svg" alt="cloud.gov logo" width="300">
+<img src="https://cloud.gov/img/SAJKr93fDF-233.svg" alt="cloud.gov logo" width="300">
 
 # Fast, Easy, Secure, and Compliant Cloud Services for U.S. Government Developers
 
