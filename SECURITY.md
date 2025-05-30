@@ -1,4 +1,4 @@
-**Reporting Security Issues**
+# Reporting Security Issues
 
 Please refrain from reporting security vulnerabilities through public GitHub issues.
 
