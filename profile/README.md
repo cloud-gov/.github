@@ -35,7 +35,7 @@
 
 - **[Cloud.gov Overview](https://cloud.gov/docs/overview/what-is-cloudgov/)**
 - **[Pricing & Plans](https://cloud.gov/pricing)**
-- **[Security & Compliance](https://cloud.gov/compliance)**
+- **[Security & Compliance](https://cloud.gov/security)**
 - **[Documentation](https://cloud.gov/docs/)**
 
 <br/>
