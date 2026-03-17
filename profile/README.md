@@ -1,5 +1,3 @@
-<img src="https://cloud.gov/img/SAJKr93fDF-233.svg" alt="cloud.gov logo" width="300">
-
 # Fast, Easy, Secure, and Compliant Cloud Services for U.S. Government Developers
 
 **[Cloud.gov](https://cloud.gov)** is a secure, FedRAMP-authorized Platform as a Service (PaaS) built for U.S. government teams. Deploy, scale, and manage your web apps quickly while meeting strict federal security and compliance standards. Focus on your code and mission—let us handle the heavy lifting.
